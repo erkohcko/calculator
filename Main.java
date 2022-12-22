@@ -42,8 +42,7 @@ public class Main {
                     result = Integer.toString(num1 / num2);
                     break;
                 default:
-                    throw new IOException(
-                            "формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
+                    throw new IOException("формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
 
             }
             return result;
